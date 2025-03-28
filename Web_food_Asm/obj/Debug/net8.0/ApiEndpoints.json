@@ -193,6 +193,635 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Web_food_Asm.Controllers.DanhMucSanPhamController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/admin/danh-muc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.DanhMucSanPhamController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/admin/danh-muc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "danhMucSanPham",
+        "Type": "Web_food_Asm.Models.DanhMucSanPham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.DanhMucSanPhamController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/admin/danh-muc/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.DanhMucSanPhamController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/admin/danh-muc/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "danhMucSanPham",
+        "Type": "Web_food_Asm.Models.DanhMucSanPham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.DanhMucSanPhamController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/admin/danh-muc/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamAdminApiController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/admin/san-pham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "showOutOfStock",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamAdminApiController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/admin/san-pham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenSanPham",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HinhAnh",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MoTa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gia",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoLuong",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NgayTao",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "NgayCapNhat",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DanhMucSanPham.MaDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DanhMucSanPham.TenDanhMuc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DanhMucSanPham.SanPhams",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Web_food_Asm.Models.SanPham, Web_food_Asm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamAdminApiController",
+    "Method": "GetProductById",
+    "RelativePath": "api/admin/san-pham/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamAdminApiController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/admin/san-pham/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "MaSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenSanPham",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HinhAnh",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MoTa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gia",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoLuong",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NgayTao",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "NgayCapNhat",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DanhMucSanPham.MaDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DanhMucSanPham.TenDanhMuc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DanhMucSanPham.SanPhams",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Web_food_Asm.Models.SanPham, Web_food_Asm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamAdminApiController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/admin/san-pham/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamAdminApiController",
+    "Method": "GetCategoriesForDropdown",
+    "RelativePath": "api/admin/san-pham/categories-dropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.ChiTietDonHang_APIController",
+    "Method": "CreateOrderDetail",
+    "RelativePath": "api/ChiTietDonHang_API/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chiTiet",
+        "Type": "Web_food_Asm.Models.ChiTietDonDatHang",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.ChiTietDonHang_APIController",
+    "Method": "DeleteOrderDetail",
+    "RelativePath": "api/ChiTietDonHang_API/delete/{maChiTiet}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maChiTiet",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.ChiTietDonHang_APIController",
+    "Method": "GetOrderDetails",
+    "RelativePath": "api/ChiTietDonHang_API/details/{maChiTiet}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maChiTiet",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.ChiTietDonHang_APIController",
+    "Method": "GetOrderDetailsList",
+    "RelativePath": "api/ChiTietDonHang_API/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.ChiTietDonHang_APIController",
+    "Method": "UpdateOrderDetail",
+    "RelativePath": "api/ChiTietDonHang_API/update/{maChiTiet}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maChiTiet",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedChiTiet",
+        "Type": "Web_food_Asm.Models.ChiTietDonDatHang",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.DonHang_APIController",
+    "Method": "PaymentResult",
+    "RelativePath": "api/DonHang_API/payment-result",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentResult",
+        "Type": "Web_food_Asm.Controllers.PaymentResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.GioHang_APIController",
+    "Method": "GetGioHang",
+    "RelativePath": "api/GioHang_API",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.GioHang_APIController",
+    "Method": "AddToCart",
+    "RelativePath": "api/GioHang_API/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.GioHang_APIController",
+    "Method": "Checkout",
+    "RelativePath": "api/GioHang_API/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentMethod",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.GioHang_APIController",
+    "Method": "DecreaseQuantity",
+    "RelativePath": "api/GioHang_API/decrease",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.GioHang_APIController",
+    "Method": "DeleteFromCart",
+    "RelativePath": "api/GioHang_API/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.GioHang_APIController",
+    "Method": "IncreaseQuantity",
+    "RelativePath": "api/GioHang_API/increase",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "AddToFavorite",
+    "RelativePath": "api/Home_API",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "GetProductDetails",
+    "RelativePath": "api/Home_API/details/{MaSanPham}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaSanPham",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "HandleError",
+    "RelativePath": "api/Home_API/error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "GetFavoriteProducts",
+    "RelativePath": "api/Home_API/favorites",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "GetProducts",
+    "RelativePath": "api/Home_API/index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "GetPrivacyPolicy",
+    "RelativePath": "api/Home_API/privacy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "AddToFavorite",
+    "RelativePath": "api/Home_API/ThemYeuThich",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "RemoveFromFavorite",
+    "RelativePath": "api/Home_API/XoaYeuThich/{maSanPham}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web_food_Asm.Controllers.Login_APIController",
     "Method": "Login",
     "RelativePath": "api/login",
@@ -211,6 +840,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Login_APIController",
+    "Method": "Logout",
+    "RelativePath": "api/login/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -365,6 +1004,48 @@
       {
         "Name": "roleName",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamYeuThichController",
+    "Method": "GetFavorites",
+    "RelativePath": "api/yeuthich",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamYeuThichController",
+    "Method": "AddToFavorites",
+    "RelativePath": "api/yeuthich/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.SanPhamYeuThichController",
+    "Method": "DeleteFavorite",
+    "RelativePath": "api/yeuthich/delete/{maSanPham}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maSanPham",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

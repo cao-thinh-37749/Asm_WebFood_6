@@ -65,6 +65,36 @@
             <response code="400">Dữ liệu không hợp lệ hoặc tài khoản không thuộc vai trò này</response>
             <response code="404">Không tìm thấy tài khoản</response>
         </member>
+        <member name="M:Web_food_Asm.Controllers.DanhMucSanPhamController.GetAllCategories">
+            <summary>
+            Lấy toàn bộ danh sách danh mục sản phẩm, bao gồm danh sách sản phẩm liên quan.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.DanhMucSanPhamController.GetCategoryById(System.Int32)">
+            <summary>
+            Lấy danh mục sản phẩm theo ID.
+            </summary>
+            <param name="id">ID của danh mục cần tìm</param>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.DanhMucSanPhamController.CreateCategory(Web_food_Asm.Models.DanhMucSanPham)">
+            <summary>
+            Thêm mới một danh mục sản phẩm.
+            </summary>
+            <param name="danhMucSanPham">Thông tin danh mục cần thêm</param>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.DanhMucSanPhamController.UpdateCategory(System.Int32,Web_food_Asm.Models.DanhMucSanPham)">
+            <summary>
+            Cập nhật thông tin danh mục sản phẩm.
+            </summary>
+            <param name="id">ID của danh mục cần cập nhật</param>
+            <param name="danhMucSanPham">Thông tin mới của danh mục</param>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.DanhMucSanPhamController.DeleteCategory(System.Int32)">
+            <summary>
+            Xóa danh mục sản phẩm (chỉ khi không có sản phẩm liên quan).
+            </summary>
+            <param name="id">ID của danh mục cần xóa</param>
+        </member>
         <member name="M:Web_food_Asm.Controllers.Login_APIController.Login(Web_food_Asm.Models.ViewModel.Login_ViewModel)">
             <summary>
             Xử lý đăng nhập người dùng.
@@ -150,16 +180,66 @@
             <response code="404">Không tìm thấy quyền</response>
             <response code="409">Không thể xóa quyền vì có tài khoản đang sử dụng</response>
         </member>
-        <member name="T:Web_food_Asm.Migrations.data">
+        <member name="M:Web_food_Asm.Controllers.SanPhamYeuThichController.GetFavorites">
+            <summary>
+            Lấy danh sách sản phẩm yêu thích của người dùng
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamYeuThichController.AddToFavorites(System.Int32)">
+            <summary>
+            Thêm sản phẩm vào danh sách yêu thích
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamYeuThichController.DeleteFavorite(System.Int32)">
+            <summary>
+            Xóa sản phẩm khỏi danh sách yêu thích
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.GetAllProducts(System.String,System.Nullable{System.Int32},System.Boolean,System.String)">
+            <summary>
+            Lấy toàn bộ danh sách sản phẩm, có thể lọc theo danh mục, từ khóa tìm kiếm và trạng thái còn hàng.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.CreateProduct(Web_food_Asm.Models.SanPham,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Thêm sản phẩm mới.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.GetCategoriesForDropdown">
+            <summary>
+            Lấy danh sách danh mục sản phẩm để hiển thị khi thêm sản phẩm.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.GetProductById(System.Int32)">
+            <summary>
+            Lấy thông tin chi tiết sản phẩm theo ID.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.UpdateProduct(System.Int32,Web_food_Asm.Models.SanPham,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cập nhật thông tin sản phẩm theo ID.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.DeleteProduct(System.Int32)">
+            <summary>
+            Xóa sản phẩm theo ID.
+            </summary>
+        </member>
+        <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.SaveUserImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Lưu hình ảnh sản phẩm vào thư mục.
+            </summary>
+        </member>
+        <member name="T:Web_food_Asm.Migrations.companyDB">
             <inheritdoc />
         </member>
-        <member name="M:Web_food_Asm.Migrations.data.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:Web_food_Asm.Migrations.companyDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:Web_food_Asm.Migrations.data.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:Web_food_Asm.Migrations.companyDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:Web_food_Asm.Migrations.data.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:Web_food_Asm.Migrations.companyDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>

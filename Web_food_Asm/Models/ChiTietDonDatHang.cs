@@ -33,6 +33,9 @@ namespace Web_food_Asm.Models
         [NotMapped]
         public decimal TongTien => SoLuong * Gia;
 
+        [ForeignKey("UserId")]
+        public virtual KhachHang? KhachHang { get; set; } // Điều hướng đến KhachHang
+
         [ForeignKey("MaDonHang")]
         public DonDatHang DonDatHang { get; set; }
 

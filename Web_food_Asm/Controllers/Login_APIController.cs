@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Web_food_Asm.Models;
@@ -41,6 +42,9 @@ namespace Web_food_Asm.Controllers
             if (!result.Succeeded)
                 return Unauthorized("Mật khẩu không đúng");
 
+            // Lưu email vào session
+            HttpContext.Session.SetString("UserEmail", model.Email);
+
             // Lấy danh sách quyền của người dùng
             var roles = await _userManager.GetRolesAsync(user);
 
@@ -51,5 +55,13 @@ namespace Web_food_Asm.Controllers
                 return Ok(new { message = "Chào Khách hàng!", userId = user.Id, role = "Customer" });
 
         }
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync();
+            HttpContext.Session.Clear(); // 🚀 Xóa session
+            return Ok(new { message = "Đã đăng xuất thành công." });
+        }
+
     }
 }

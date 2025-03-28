@@ -23,7 +23,7 @@ namespace Web_food_Asm.Models
         public decimal TongTien { get; set; }
 
         // Quan hệ với KhachHang
-        [ForeignKey("Id")]
+        [ForeignKey("UserId")]
         public KhachHang KhachHang { get; set; }
 
         // Quan hệ với ChiTietDonDatHang

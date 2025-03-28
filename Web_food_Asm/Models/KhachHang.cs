@@ -21,7 +21,9 @@ namespace Web_food_Asm.Models
         public string TinhTrang { get; set; } = "Hoạt Động";
 
         // Các quan hệ đến các bảng khác
-        public ICollection<SanPhamYeuThich> SanPhamYeuThichs { get; set; }
+        //public ICollection<SanPhamYeuThich> SanPhamYeuThichs { get; set; }
+        // Thêm danh sách sản phẩm yêu thích
+        public ICollection<SanPhamYeuThich> SanPhamYeuThichs { get; set; } = new List<SanPhamYeuThich>();
         public ICollection<GioHang> GioHangs { get; set; }
         public ICollection<DonDatHang> DonDatHangs { get; set; }
     }

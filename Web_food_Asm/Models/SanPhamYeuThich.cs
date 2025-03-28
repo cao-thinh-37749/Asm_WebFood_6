@@ -6,7 +6,7 @@ namespace Web_food_Asm.Models
     public class SanPhamYeuThich
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Tự động tăng
         public int MaYeuThich { get; set; }  // Khóa chính, tự động sinh giá trị
 
         [Required(ErrorMessage = "Id khách hàng không được để trống.")]
@@ -16,7 +16,7 @@ namespace Web_food_Asm.Models
         public int MaSanPham { get; set; }  // Khóa ngoại của SanPham
 
         // Mối quan hệ với bảng KhachHang
-        [ForeignKey("Id")]
+        [ForeignKey("UserId")]
         public KhachHang KhachHang { get; set; }
 
         // Mối quan hệ với bảng SanPham
@@ -24,3 +24,5 @@ namespace Web_food_Asm.Models
         public SanPham SanPham { get; set; }
     }
 }
+
+

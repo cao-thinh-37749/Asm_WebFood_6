@@ -1,0 +1,66 @@
+﻿@page "/accounts"
+@using View.Service
+@inject AccountService AccountService
+@inject NavigationManager Navigation
+
+<h3>Danh sách tài khoản</h3>
+
+@if (accounts == null)
+{
+    <p>Đang tải dữ liệu...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Họ Tên</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Số điện thoại</th>
+                <th>Vai trò</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var account in accounts)
+            {
+                <tr>
+                    <td>@account.HoTen</td>
+                    <td>@account.Email</td>
+                    <td>@account.UserName</td>
+                    <td>@account.PhoneNumber</td>
+                    <td>@string.Join(", ", account.Roles)</td>
+                    <td>
+                        <button class="btn btn-info" @onclick="() => ViewDetail(account.Id)">Xem</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteAccount(account.Id)">Xóa</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Account> accounts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        accounts = await AccountService.GetAccountsAsync();
+    }
+
+    private void ViewDetail(string id)
+    {
+        Navigation.NavigateTo($"/account/{id}");
+    }
+
+    private async Task DeleteAccount(string id)
+    {
+        bool success = await AccountService.DeleteAccountAsync(id);
+        if (success)
+        {
+            accounts = await AccountService.GetAccountsAsync();
+            StateHasChanged();
+        }
+    }
+}

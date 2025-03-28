@@ -189,11 +189,16 @@ namespace Web_food_Asm.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("MaChiTiet");
 
                     b.HasIndex("MaDonHang");
 
                     b.HasIndex("MaSanPham");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("ChiTietDonDatHangs");
                 });
@@ -223,9 +228,6 @@ namespace Web_food_Asm.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaDonHang"));
 
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<DateTime>("NgayDat")
                         .HasColumnType("datetime2");
 
@@ -239,11 +241,11 @@ namespace Web_food_Asm.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("MaDonHang");
 
-                    b.HasIndex("Id");
+                    b.HasIndex("UserId");
 
                     b.ToTable("DonDatHangs");
                 });
@@ -256,9 +258,6 @@ namespace Web_food_Asm.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaGioHang"));
 
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<int>("MaSanPham")
                         .HasColumnType("int");
 
@@ -267,13 +266,13 @@ namespace Web_food_Asm.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("MaGioHang");
 
-                    b.HasIndex("Id");
-
                     b.HasIndex("MaSanPham");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("GioHangs");
                 });
@@ -415,22 +414,18 @@ namespace Web_food_Asm.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaYeuThich"));
 
-                    b.Property<string>("Id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<int>("MaSanPham")
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("MaYeuThich");
 
-                    b.HasIndex("Id");
-
                     b.HasIndex("MaSanPham");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("SanPhamYeuThichs");
                 });
@@ -526,7 +521,13 @@ namespace Web_food_Asm.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
                     b.Navigation("DonDatHang");
+
+                    b.Navigation("KhachHang");
 
                     b.Navigation("SanPham");
                 });
@@ -535,20 +536,24 @@ namespace Web_food_Asm.Migrations
                 {
                     b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
                         .WithMany("DonDatHangs")
-                        .HasForeignKey("Id");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("KhachHang");
                 });
 
             modelBuilder.Entity("Web_food_Asm.Models.GioHang", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
-                        .WithMany("GioHangs")
-                        .HasForeignKey("Id");
-
                     b.HasOne("Web_food_Asm.Models.SanPham", "SanPham")
                         .WithMany()
                         .HasForeignKey("MaSanPham")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                        .WithMany("GioHangs")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -570,15 +575,15 @@ namespace Web_food_Asm.Migrations
 
             modelBuilder.Entity("Web_food_Asm.Models.SanPhamYeuThich", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
-                        .WithMany("SanPhamYeuThichs")
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Web_food_Asm.Models.SanPham", "SanPham")
                         .WithMany()
                         .HasForeignKey("MaSanPham")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                        .WithMany("SanPhamYeuThichs")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -23,7 +23,7 @@ namespace Web_food_Asm.Models
         public decimal TongTien => SoLuong * SanPham.Gia;
 
         // Quan hệ với KhachHang
-        [ForeignKey("Id")]
+        [ForeignKey("UserId")]
         public KhachHang KhachHang { get; set; }
 
         // Quan hệ với SanPham

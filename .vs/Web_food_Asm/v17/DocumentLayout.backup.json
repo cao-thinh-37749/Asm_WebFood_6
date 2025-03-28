@@ -1,58 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\",
+  "WorkspaceRootPath": "D:\\C#6 2025\\Asm_WebFood_6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\controllers\\accounts_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\accounts_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\controllers\\giohang_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\giohang_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\controllers\\register_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\controllers\\home_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\home_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\controllers\\donhang_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\donhang_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\controllers\\register_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\register_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\viewmodel\\register_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\viewmodel\\register_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\data\\vnpayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\data\\vnpayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\controllers\\roles_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\roles_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\controllers\\sanphamyeuthich_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\sanphamyeuthich_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\controllers\\sanpham_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\sanpham_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\controllers\\login_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\controllers\\login_apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\sanphamyeuthich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\sanphamyeuthich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\danhmucsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\danhmucsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\chitietdondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\chitietdondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|e:\\fpt_poly\\ky_6\\block_2\\bai_tap\\c_6\\caoquocthinh_ps37749_asm\\web_food_asm\\web_food_asm\\models\\thanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\thanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|d:\\c#6 2025\\asm_webfood_6\\web_food_asm\\models\\thanhtoanvnpayrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E7D4C7-E0A3-4C13-B5BD-77F50ABD3E33}|Web_food_Asm\\Web_food_Asm.csproj|solutionrelative:web_food_asm\\models\\thanhtoanvnpayrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,165 +50,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\KhachHang.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\KhachHang.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\KhachHang.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\KhachHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "VnPayHelper.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Data\\VnPayHelper.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Data\\VnPayHelper.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Data\\VnPayHelper.cs",
+              "RelativeToolTip": "Web_food_Asm\\Data\\VnPayHelper.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwC0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T07:56:36.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register_ViewModel.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\ViewModel\\Register_ViewModel.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\ViewModel\\Register_ViewModel.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\ViewModel\\Register_ViewModel.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\ViewModel\\Register_ViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T07:48:47.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Roles_APIController.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Roles_APIController.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\Roles_APIController.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Roles_APIController.cs",
-              "RelativeToolTip": "Web_food_Asm\\Controllers\\Roles_APIController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwEUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:30:59.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register_APIController.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Register_APIController.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\Register_APIController.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Register_APIController.cs",
-              "RelativeToolTip": "Web_food_Asm\\Controllers\\Register_APIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:30:57.145Z",
+              "WhenOpened": "2025-03-28T02:37:02.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login_APIController.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Login_APIController.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\Login_APIController.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Login_APIController.cs",
-              "RelativeToolTip": "Web_food_Asm\\Controllers\\Login_APIController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:30:53.061Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Accounts_APIController.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Accounts_APIController.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\Accounts_APIController.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Controllers\\Accounts_APIController.cs",
-              "RelativeToolTip": "Web_food_Asm\\Controllers\\Accounts_APIController.cs",
-              "ViewState": "AgIAAG0BAAAAAAAAAAAYwDEAAAAYAAAAAAAAAA==",
+              "Title": "GioHang_APIController.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\GioHang_APIController.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\GioHang_APIController.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\GioHang_APIController.cs",
+              "RelativeToolTip": "Web_food_Asm\\Controllers\\GioHang_APIController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:28:47.886Z",
+              "WhenOpened": "2025-03-27T15:56:20.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DonDatHang.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\DonDatHang.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\DonDatHang.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\DonDatHang.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\DonDatHang.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAwAAAAcAAAAAAAAAA==",
+              "Title": "SanPhamYeuThich_APIController.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\SanPhamYeuThich_APIController.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\SanPhamYeuThich_APIController.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\SanPhamYeuThich_APIController.cs",
+              "RelativeToolTip": "Web_food_Asm\\Controllers\\SanPhamYeuThich_APIController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:27:14.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChiTietDonDatHang.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\ChiTietDonDatHang.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\ChiTietDonDatHang.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\ChiTietDonDatHang.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\ChiTietDonDatHang.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:26:58.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ThanhToan.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\ThanhToan.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\ThanhToan.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\ThanhToan.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\ThanhToan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:26:51.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DanhMucSanPham.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\DanhMucSanPham.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\DanhMucSanPham.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\DanhMucSanPham.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\DanhMucSanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:24:17.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GioHang.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\GioHang.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\GioHang.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\GioHang.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\GioHang.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:20:12.833Z"
+              "WhenOpened": "2025-03-27T17:09:52.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SanPhamYeuThich.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\SanPhamYeuThich.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\SanPhamYeuThich.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\SanPhamYeuThich.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\SanPhamYeuThich.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Title": "SanPham_APIController.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\SanPham_APIController.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\SanPham_APIController.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\SanPham_APIController.cs",
+              "RelativeToolTip": "Web_food_Asm\\Controllers\\SanPham_APIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:18:51.447Z"
+              "WhenOpened": "2025-03-27T18:47:45.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DonHang_APIController.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\DonHang_APIController.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\DonHang_APIController.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\DonHang_APIController.cs",
+              "RelativeToolTip": "Web_food_Asm\\Controllers\\DonHang_APIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:22:25.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register_APIController.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\Register_APIController.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\Register_APIController.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\Register_APIController.cs",
+              "RelativeToolTip": "Web_food_Asm\\Controllers\\Register_APIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:51:20.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home_APIController.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\Home_APIController.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Controllers\\Home_APIController.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Controllers\\Home_APIController.cs",
+              "RelativeToolTip": "Web_food_Asm\\Controllers\\Home_APIController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:09:50.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\appsettings.json",
+              "RelativeDocumentMoniker": "Web_food_Asm\\appsettings.json",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\appsettings.json",
+              "RelativeToolTip": "Web_food_Asm\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T16:29:54.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\SanPham.cs",
-              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\SanPham.cs",
-              "ToolTip": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Models\\SanPham.cs",
-              "RelativeToolTip": "Web_food_Asm\\Models\\SanPham.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Program.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Program.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Program.cs",
+              "RelativeToolTip": "Web_food_Asm\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:18:42.339Z"
+              "WhenOpened": "2025-03-27T19:00:06.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThanhToanVnPayRequest.cs",
+              "DocumentMoniker": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Models\\ThanhToanVnPayRequest.cs",
+              "RelativeDocumentMoniker": "Web_food_Asm\\Models\\ThanhToanVnPayRequest.cs",
+              "ToolTip": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Models\\ThanhToanVnPayRequest.cs",
+              "RelativeToolTip": "Web_food_Asm\\Models\\ThanhToanVnPayRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:40:58.753Z",
+              "EditorCaption": ""
             }
           ]
         }
