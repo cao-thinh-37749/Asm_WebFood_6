@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web_food_Asm.Data;
 
@@ -11,9 +12,11 @@ using Web_food_Asm.Data;
 namespace Web_food_Asm.Migrations
 {
     [DbContext(typeof(ConnectStr))]
-    partial class ConnectStrModelSnapshot : ModelSnapshot
+    [Migration("20250328080007_data")]
+    partial class data
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

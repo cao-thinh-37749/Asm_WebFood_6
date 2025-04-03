@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Web_food_Asm.Controllers.Accounts_APIController",
-    "Method": "GetUserById",
+    "Method": "GetUserByIdAndOrder",
     "RelativePath": "api/accounts/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -45,7 +45,7 @@
         "IsRequired": true
       },
       {
-        "Name": "UserName",
+        "Name": "HoTen",
         "Type": "System.String",
         "IsRequired": false
       },
@@ -590,7 +590,7 @@
     "Parameters": [
       {
         "Name": "paymentResult",
-        "Type": "Web_food_Asm.Controllers.PaymentResult",
+        "Type": "Web_food_Asm.Models.PaymentResult",
         "IsRequired": true
       }
     ],
@@ -693,22 +693,6 @@
   },
   {
     "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
-    "Method": "AddToFavorite",
-    "RelativePath": "api/Home_API",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "maSanPham",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
     "Method": "GetProductDetails",
     "RelativePath": "api/Home_API/details/{MaSanPham}",
     "HttpMethod": "GET",
@@ -721,26 +705,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
-    "Method": "HandleError",
-    "RelativePath": "api/Home_API/error",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
-    "Method": "GetFavoriteProducts",
-    "RelativePath": "api/Home_API/favorites",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -775,48 +739,6 @@
         "Name": "pageSize",
         "Type": "System.Int32",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
-    "Method": "GetPrivacyPolicy",
-    "RelativePath": "api/Home_API/privacy",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
-    "Method": "AddToFavorite",
-    "RelativePath": "api/Home_API/ThemYeuThich",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "maSanPham",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
-    "Method": "RemoveFromFavorite",
-    "RelativePath": "api/Home_API/XoaYeuThich/{maSanPham}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "maSanPham",
-        "Type": "System.Int32",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1010,9 +932,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web_food_Asm.Controllers.SanPhamYeuThichController",
+    "ContainingType": "SanPhamYeuThichController",
     "Method": "GetFavorites",
-    "RelativePath": "api/yeuthich",
+    "RelativePath": "api/yeuthich/danh-sach-yeu-thich",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1020,9 +942,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web_food_Asm.Controllers.SanPhamYeuThichController",
-    "Method": "AddToFavorites",
-    "RelativePath": "api/yeuthich/add",
+    "ContainingType": "SanPhamYeuThichController",
+    "Method": "AddToFavorite",
+    "RelativePath": "api/yeuthich/them-yeu-thich/{maSanPham}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1036,9 +958,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web_food_Asm.Controllers.SanPhamYeuThichController",
+    "ContainingType": "SanPhamYeuThichController",
     "Method": "DeleteFavorite",
-    "RelativePath": "api/yeuthich/delete/{maSanPham}",
+    "RelativePath": "api/yeuthich/xoa-san-pham/{maSanPham}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

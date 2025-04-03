@@ -9,11 +9,6 @@
             Lấy danh sách tài khoản kèm theo vai trò
             </summary>
         </member>
-        <member name="M:Web_food_Asm.Controllers.Accounts_APIController.GetUserById(System.String)">
-            <summary>
-            Xem thông tin tài khoản theo ID
-            </summary>
-        </member>
         <member name="M:Web_food_Asm.Controllers.Accounts_APIController.DeleteUser(System.String)">
             <summary>
             Xóa tài khoản theo ID
@@ -180,21 +175,6 @@
             <response code="404">Không tìm thấy quyền</response>
             <response code="409">Không thể xóa quyền vì có tài khoản đang sử dụng</response>
         </member>
-        <member name="M:Web_food_Asm.Controllers.SanPhamYeuThichController.GetFavorites">
-            <summary>
-            Lấy danh sách sản phẩm yêu thích của người dùng
-            </summary>
-        </member>
-        <member name="M:Web_food_Asm.Controllers.SanPhamYeuThichController.AddToFavorites(System.Int32)">
-            <summary>
-            Thêm sản phẩm vào danh sách yêu thích
-            </summary>
-        </member>
-        <member name="M:Web_food_Asm.Controllers.SanPhamYeuThichController.DeleteFavorite(System.Int32)">
-            <summary>
-            Xóa sản phẩm khỏi danh sách yêu thích
-            </summary>
-        </member>
         <member name="M:Web_food_Asm.Controllers.SanPhamAdminApiController.GetAllProducts(System.String,System.Nullable{System.Int32},System.Boolean,System.String)">
             <summary>
             Lấy toàn bộ danh sách sản phẩm, có thể lọc theo danh mục, từ khóa tìm kiếm và trạng thái còn hàng.
@@ -230,17 +210,42 @@
             Lưu hình ảnh sản phẩm vào thư mục.
             </summary>
         </member>
-        <member name="T:Web_food_Asm.Migrations.companyDB">
+        <member name="T:Web_food_Asm.Migrations.data">
             <inheritdoc />
         </member>
-        <member name="M:Web_food_Asm.Migrations.companyDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:Web_food_Asm.Migrations.data.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:Web_food_Asm.Migrations.companyDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:Web_food_Asm.Migrations.data.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:Web_food_Asm.Migrations.companyDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:Web_food_Asm.Migrations.data.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
+        </member>
+        <member name="M:SanPhamYeuThichController.GetFavorites">
+            <summary>
+            Lấy danh sách sản phẩm yêu thích của người dùng
+            </summary>
+            <returns>Danh sách sản phẩm yêu thích</returns>
+        </member>
+        <member name="M:SanPhamYeuThichController.AddToFavorite(System.Int32)">
+            <summary>
+            Thêm sản phẩm vào danh sách yêu thích
+            </summary>
+            <param name="maSanPham">Mã sản phẩm cần thêm</param>
+            <returns>Thông báo kết quả</returns>
+        </member>
+        <member name="M:SanPhamYeuThichController.DeleteFavorite(System.Int32)">
+            <summary>
+            Xóa sản phẩm khỏi danh sách yêu thích
+            </summary>
+            <param name="maSanPham">Mã sản phẩm cần xóa</param>
+            <returns>Thông báo kết quả</returns>
+        </member>
+        <member name="P:WebFood.Services.SessionService.UserId">
+            <summary>
+            Lấy ID của người dùng từ Session hoặc Claims
+            </summary>
         </member>
     </members>
 </doc>

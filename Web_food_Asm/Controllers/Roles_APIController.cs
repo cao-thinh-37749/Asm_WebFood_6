@@ -5,12 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Web_food_Asm.Models;
+using WebFood.Services;
 
 namespace Web_food_Asm.Controllers
 {
     [ApiController]
     [Route("api/roles")]
-    public class Roles_APIController : ControllerBase
+    [AuthorizeUser]
+    public class Roles_APIController : SessionService
     {
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<KhachHang> _userManager;

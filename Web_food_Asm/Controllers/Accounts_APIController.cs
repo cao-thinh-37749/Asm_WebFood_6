@@ -5,12 +5,14 @@ using Microsoft.EntityFrameworkCore;
 using Web_food_Asm.Data;
 using Web_food_Asm.Models;
 using Web_food_Asm.Models.ViewModel;
+using WebFood.Services;
 
 namespace Web_food_Asm.Controllers
 {
     [ApiController]
     [Route("api/accounts")]
-    public class Accounts_APIController : ControllerBase
+    [AuthorizeUser]
+    public class Accounts_APIController : SessionService
     {
         private readonly UserManager<KhachHang> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -62,26 +64,46 @@ namespace Web_food_Asm.Controllers
 
         #endregion
 
-        #region Thông tin tài khoản
-        /// <summary>
-        /// Xem thông tin tài khoản theo ID
-        /// </summary>
+
+        #region Thông tin tài khoảng cùng với đơn hàng
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetUserById(string id)
+        public async Task<IActionResult> GetUserByIdAndOrder(string id)
         {
             // Kiểm tra ID hợp lệ
             if (string.IsNullOrWhiteSpace(id))
                 return BadRequest(new { Error = "ID không hợp lệ" });
 
-            // Tìm người dùng theo ID
-            var user = await _userManager.FindByIdAsync(id);
+            // Tìm khách hàng theo ID
+            var user = await _userManager.Users
+                .Include(u => u.DonDatHangs) // Include đơn hàng
+                .ThenInclude(d => d.ChiTietDonDatHangs) // Include chi tiết đơn hàng
+                .ThenInclude(c => c.SanPham) // Include sản phẩm
+                .FirstOrDefaultAsync(u => u.Id == id);
+
             if (user == null)
                 return NotFound(new { Error = "Tài khoản không tồn tại" });
 
-            // Lấy danh sách vai trò
+            // Lấy danh sách vai trò của khách hàng
             var roles = await _userManager.GetRolesAsync(user);
 
-            // Trả về thông tin người
+            // Chuẩn bị danh sách đơn hàng chi tiết theo UserId
+            var orders = user.DonDatHangs.Select(order => new
+            {
+                order.MaDonHang,
+                order.NgayDat,
+                order.TrangThai,
+                order.TongTien,
+                ChiTietDonHang = order.ChiTietDonDatHangs.Select(detail => new
+                {
+                    detail.MaChiTiet,
+                    SanPham = detail.SanPham.TenSanPham,
+                    detail.SoLuong,
+                    detail.Gia,
+                    tongtien = detail.TongTien
+                })
+            });
+
+            // Trả về thông tin khách hàng cùng với danh sách đơn hàng
             return Ok(new
             {
                 Hinh = string.IsNullOrWhiteSpace(user.Hinh) ? "default.png" : user.Hinh,
@@ -90,11 +112,13 @@ namespace Web_food_Asm.Controllers
                 user.HoTen,
                 user.UserName,
                 user.PhoneNumber,
-                TinhTrang = user.TinhTrang == "Hoạt Động" ? "Hoạt động" : "Bị khóa",
                 user.DiaChi,
-                Roles = roles
+                TinhTrang = user.TinhTrang == "Hoạt Động" ? "Hoạt động" : "Bị khóa",
+                Roles = roles,
+                DonHang = orders
             });
         }
+
 
         #endregion
 
@@ -241,7 +265,7 @@ namespace Web_food_Asm.Controllers
             if (await IsEmailTaken(user, model.Email))
                 return BadRequest(new { Error = "Email này đã được sử dụng" });
 
-            user.UserName = model.UserName;
+            user.HoTen = model.HoTen;
             user.Email = model.Email;
             user.PhoneNumber = model.PhoneNumber;
             user.DiaChi = model.DiaChi;

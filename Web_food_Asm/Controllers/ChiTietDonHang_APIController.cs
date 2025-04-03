@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using System;
 using Web_food_Asm.Data;
 using Web_food_Asm.Models;
+using WebFood.Services;
 
 namespace Web_food_Asm.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ChiTietDonHang_APIController : ControllerBase
+    [AuthorizeUser]
+    public class ChiTietDonHang_APIController : SessionService
     {
         private readonly ConnectStr _connectStr;
 

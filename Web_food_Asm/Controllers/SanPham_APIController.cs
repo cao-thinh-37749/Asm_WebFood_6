@@ -9,12 +9,14 @@ using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Web_food_Asm.Data;
 using Web_food_Asm.Models;
+using WebFood.Services;
 
 namespace Web_food_Asm.Controllers
 {
     [Route("api/admin/san-pham")]
     [ApiController]
-    public class SanPhamAdminApiController : ControllerBase
+    [AuthorizeUser]
+    public class SanPhamAdminApiController : SessionService
     {
         private readonly ConnectStr _connectStr;
         private readonly IWebHostEnvironment _webHostEnvironment;
@@ -63,61 +65,6 @@ namespace Web_food_Asm.Controllers
             return Ok(products);
         }
         #endregion
-
-        //#region Thêm Mới Sản Phẩm
-        ///// <summary>
-        ///// Thêm mới sản phẩm vào hệ thống, danh mục được lấy từ API.
-        ///// </summary>
-        //[HttpPost]
-        //public async Task<IActionResult> CreateProduct([FromForm] SanPham sanPham, IFormFile? ImageFile)
-        //{
-        //    if (!ModelState.IsValid) return BadRequest(ModelState);
-
-        //    // Kiểm tra xem danh mục có tồn tại không
-        //    var danhMuc = await _context.DanhMucSanPhams.FindAsync(sanPham.MaDanhMuc);
-        //    if (danhMuc == null)
-        //    {
-        //        return BadRequest("Danh mục không tồn tại. Vui lòng chọn danh mục hợp lệ.");
-        //    }
-
-        //    // Log để kiểm tra mã danh mục
-        //    Console.WriteLine($"Mã danh mục nhập vào: {sanPham.MaDanhMuc}");
-
-        //    // Kiểm tra sản phẩm có tồn tại trong danh mục không
-        //    var existingProduct = await _context.SanPhams
-        //        .FirstOrDefaultAsync(sp => sp.TenSanPham.ToLower() == sanPham.TenSanPham.ToLower() && sp.MaDanhMuc == sanPham.MaDanhMuc);
-
-        //    if (existingProduct != null)
-        //    {
-        //        existingProduct.SoLuong += sanPham.SoLuong;
-        //        existingProduct.Gia = sanPham.Gia;
-        //        existingProduct.MoTa = sanPham.MoTa;
-        //        existingProduct.NgayCapNhat = DateTime.Now;
-        //        if (ImageFile != null)
-        //            existingProduct.HinhAnh = await SaveUserImage(ImageFile);
-
-        //        _context.SanPhams.Update(existingProduct);
-        //    }
-        //    else
-        //    {
-        //        sanPham.HinhAnh = ImageFile != null ? await SaveUserImage(ImageFile) : "/images/default.png";
-        //        sanPham.NgayTao = DateTime.Now;
-        //        sanPham.NgayCapNhat = DateTime.Now;
-
-        //        // Kiểm tra lại mã danh mục trước khi lưu
-        //        Console.WriteLine($"Mã danh mục trước khi lưu: {sanPham.MaDanhMuc}");
-
-        //        await _context.SanPhams.AddAsync(sanPham);
-        //    }
-
-        //    await _context.SaveChangesAsync();
-
-        //    // Kiểm tra lại giá trị sau khi lưu
-        //    Console.WriteLine($"Mã danh mục sau khi lưu: {sanPham.MaDanhMuc}");
-
-        //    return CreatedAtAction(nameof(GetProductById), new { id = sanPham.MaSanPham }, sanPham);
-        //}
-        //#endregion
 
         #region Thêm Sản Phẩm Mới
         /// <summary>

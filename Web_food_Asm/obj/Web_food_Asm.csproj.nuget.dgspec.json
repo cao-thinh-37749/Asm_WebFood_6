@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Web_food_Asm.csproj": {}
+    "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Web_food_Asm.csproj": {}
   },
   "projects": {
-    "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Web_food_Asm.csproj": {
+    "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Web_food_Asm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Web_food_Asm.csproj",
+        "projectUniqueName": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Web_food_Asm.csproj",
         "projectName": "Web_food_Asm",
-        "projectPath": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\Web_food_Asm.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\obj\\",
+        "projectPath": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\Web_food_Asm.csproj",
+        "packagesPath": "C:\\Users\\caoth\\.nuget\\packages\\",
+        "outputPath": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caoth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

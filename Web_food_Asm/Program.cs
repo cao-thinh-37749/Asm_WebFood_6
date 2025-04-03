@@ -1,37 +1,19 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using Web_food_Asm.Data;
 using Web_food_Asm.Models;
+using WebFood.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Đăng ký các dịch vụ
+// Đăng ký dịch vụ
 builder.Services.AddSingleton<SendMail>();
 builder.Services.AddSingleton<FileImgUpload>();
+builder.Services.AddScoped<SessionService>();
 
-// Đăng ký DbContext với DI container, cấu hình sử dụng SQL Server với chuỗi kết nối từ appsettings.json
-builder.Services.AddDbContext<ConnectStr>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectStr")));
-
-// Đăng ký Identity
-builder.Services.AddIdentity<KhachHang, IdentityRole>()
-    .AddEntityFrameworkStores<ConnectStr>()
-    .AddDefaultTokenProviders();
-
-// Sử dụng cấu hình EmailSettings từ appsettings.json
-//builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
-
-// Tạo tài liệu RESTful API
-builder.Services.AddSwaggerGen(c =>
-{
-    // Tự động lấy XML file mà không cần chỉ rõ đường dẫn
-    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
-});
-
-// Đăng ký dịch vụ Session
+// Cấu hình Session
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -40,16 +22,31 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// Thêm dịch vụ điều khiển (Controllers)
-builder.Services.AddControllers();
+// Cấu hình DbContext và Identity
+builder.Services.AddDbContext<ConnectStr>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectStr")));
 
-// Cấu hình Swagger/OpenAPI
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddIdentity<KhachHang, IdentityRole>()
+    .AddEntityFrameworkStores<ConnectStr>()
+    .AddDefaultTokenProviders();
+
+
+builder.Services.AddAuthorization(); builder.Services.AddHttpContextAccessor();
+
+
+// Cấu hình Swagger
+builder.Services.AddSwaggerGen(c =>
+{
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+});
+
+// Đăng ký Controllers
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Gọi hàm tạo tài khoản mặc định
+// Khởi tạo tài khoản mặc định
 using (var scope = app.Services.CreateScope())
 {
     await DataSeeder.SeedRolesAndUsers(
@@ -58,7 +55,7 @@ using (var scope = app.Services.CreateScope())
     );
 }
 
-// Cấu hình HTTP request pipeline
+// Cấu hình Middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -67,10 +64,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseSession();
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();

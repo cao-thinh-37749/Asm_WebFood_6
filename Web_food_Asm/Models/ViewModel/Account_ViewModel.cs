@@ -8,7 +8,7 @@ namespace Web_food_Asm.Models.ViewModel
     {
         [Required(ErrorMessage = "Tên tài khoản không được để trống")]
         [StringLength(50, ErrorMessage = "Tên tài khoản tối đa 50 ký tự")]
-        public string UserName { get; set; }
+        public string HoTen { get; set; }
 
         [Required(ErrorMessage = "Email không được để trống")]
         [EmailAddress(ErrorMessage = "Email không hợp lệ")]

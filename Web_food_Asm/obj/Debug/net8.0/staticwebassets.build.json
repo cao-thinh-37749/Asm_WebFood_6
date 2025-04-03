@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nxI/gwBFlnnD4NmAMyn2PhnVmHPLfPHVKyaxjZ30AcA=",
+  "Hash": "kG18+x//pRMGiiXmuiSJoCftQiipvieNdUGK7fvJSZc=",
   "Source": "Web_food_Asm",
   "BasePath": "_content/Web_food_Asm",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Web_food_Asm\\wwwroot",
       "Source": "Web_food_Asm",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi1.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi1.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi1.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi1.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi10.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi10.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi10.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi10.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi2.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi3.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi4.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi4.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi4.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi4.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi5.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi5.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi5.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi5.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi6.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi6.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi6.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi6.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi7.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi7.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi7.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi7.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi8.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi8.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi8.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi8.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi9.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\banhmikep\\banhmi9.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/banhmikep/banhmi9.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banhmikep\\banhmi9.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo1.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo1.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo1.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo1.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo10.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo10.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo10.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo10.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo2.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo3.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo4.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo4.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo4.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo4.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo5.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo5.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo5.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo5.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo6.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo6.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo6.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo6.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo7.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo7.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo7.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo7.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo8.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo8.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo8.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo8.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\combo\\combo9.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\combo\\combo9.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/combo/combo9.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\combo\\combo9.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan1.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan1.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan1.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan1.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan10.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan10.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan10.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan10.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan2.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan3.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan4.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan4.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan4.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan4.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan5.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan5.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan5.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan5.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan6.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan6.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan6.jpg",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan6.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan7.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan7.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan7.jpg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan7.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan8.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan8.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan8.jpg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan8.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\garan\\garan9.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\garan\\garan9.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/garan/garan9.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garan\\garan9.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\Logo\\logo.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\Logo\\logo.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/Logo/logo.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Logo\\logo.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\23f6a89b-ac20-4741-8172-0f1d0d4d8bff.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\23f6a89b-ac20-4741-8172-0f1d0d4d8bff.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/23f6a89b-ac20-4741-8172-0f1d0d4d8bff.jpg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\23f6a89b-ac20-4741-8172-0f1d0d4d8bff.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\29d4c9b6-932b-4909-9d14-7431322eb4ef.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\29d4c9b6-932b-4909-9d14-7431322eb4ef.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/29d4c9b6-932b-4909-9d14-7431322eb4ef.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\29d4c9b6-932b-4909-9d14-7431322eb4ef.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\3465ae31-0717-4cae-8e10-74e7076c543c.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\3465ae31-0717-4cae-8e10-74e7076c543c.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/3465ae31-0717-4cae-8e10-74e7076c543c.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\3465ae31-0717-4cae-8e10-74e7076c543c.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\39b3b52e-cf77-4440-a2d5-5fcba18fc862.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\39b3b52e-cf77-4440-a2d5-5fcba18fc862.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/39b3b52e-cf77-4440-a2d5-5fcba18fc862.jpg",
       "AssetKind": "All",
@@ -682,10 +682,29 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\39b3b52e-cf77-4440-a2d5-5fcba18fc862.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\586a6546-d579-48bb-b9ad-f3e00a52be5a.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\39fd0f41-dd57-427c-a9ad-468cb580438a.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
+      "BasePath": "_content/Web_food_Asm",
+      "RelativePath": "images/newfood/39fd0f41-dd57-427c-a9ad-468cb580438a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\newfood\\39fd0f41-dd57-427c-a9ad-468cb580438a.jpg"
+    },
+    {
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\586a6546-d579-48bb-b9ad-f3e00a52be5a.jpg",
+      "SourceId": "Web_food_Asm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/586a6546-d579-48bb-b9ad-f3e00a52be5a.jpg",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\586a6546-d579-48bb-b9ad-f3e00a52be5a.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\5fa659f5-7cf3-45e1-b378-eaf9b79d19ba.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\5fa659f5-7cf3-45e1-b378-eaf9b79d19ba.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/5fa659f5-7cf3-45e1-b378-eaf9b79d19ba.jpg",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\5fa659f5-7cf3-45e1-b378-eaf9b79d19ba.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\7805174c-d400-4f22-a844-e81d657ee933.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\7805174c-d400-4f22-a844-e81d657ee933.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/7805174c-d400-4f22-a844-e81d657ee933.jpg",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\7805174c-d400-4f22-a844-e81d657ee933.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\80167b13-d00b-4ff6-a723-09592e9e3e44.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\80167b13-d00b-4ff6-a723-09592e9e3e44.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/80167b13-d00b-4ff6-a723-09592e9e3e44.jpg",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\80167b13-d00b-4ff6-a723-09592e9e3e44.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\94fba664-20f4-4e14-b15a-95f13703289e.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\94fba664-20f4-4e14-b15a-95f13703289e.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/94fba664-20f4-4e14-b15a-95f13703289e.jpg",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\94fba664-20f4-4e14-b15a-95f13703289e.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\b0b4b834-9195-4764-926a-d27bb51a4e05.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\b0b4b834-9195-4764-926a-d27bb51a4e05.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/b0b4b834-9195-4764-926a-d27bb51a4e05.jpg",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\b0b4b834-9195-4764-926a-d27bb51a4e05.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\b75a6e43-f8f2-4d26-82ca-683988368da3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\b75a6e43-f8f2-4d26-82ca-683988368da3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/b75a6e43-f8f2-4d26-82ca-683988368da3.jpg",
       "AssetKind": "All",
@@ -815,10 +834,29 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\b75a6e43-f8f2-4d26-82ca-683988368da3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\d088db30-377b-44c8-aeef-90a9a3da9841.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\c27c34a5-dbed-48c2-bfca-330edf4b191a.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
+      "BasePath": "_content/Web_food_Asm",
+      "RelativePath": "images/newfood/c27c34a5-dbed-48c2-bfca-330edf4b191a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\newfood\\c27c34a5-dbed-48c2-bfca-330edf4b191a.jpg"
+    },
+    {
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\d088db30-377b-44c8-aeef-90a9a3da9841.jpg",
+      "SourceId": "Web_food_Asm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/d088db30-377b-44c8-aeef-90a9a3da9841.jpg",
       "AssetKind": "All",
@@ -834,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\d088db30-377b-44c8-aeef-90a9a3da9841.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\fbd5a14e-a01a-4e48-8170-5bba1a25f995.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\fbd5a14e-a01a-4e48-8170-5bba1a25f995.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/fbd5a14e-a01a-4e48-8170-5bba1a25f995.jpg",
       "AssetKind": "All",
@@ -853,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\fbd5a14e-a01a-4e48-8170-5bba1a25f995.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\newfood\\fc3e7c57-1935-46d4-b70c-f7af853c76ae.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\fc3e7c57-1935-46d4-b70c-f7af853c76ae.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/newfood/fc3e7c57-1935-46d4-b70c-f7af853c76ae.jpg",
       "AssetKind": "All",
@@ -872,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\newfood\\fc3e7c57-1935-46d4-b70c-f7af853c76ae.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong1.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong1.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong1.jpg",
       "AssetKind": "All",
@@ -891,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong1.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong2.jpg",
       "AssetKind": "All",
@@ -910,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong3.jpg",
       "AssetKind": "All",
@@ -929,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong4.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong4.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong4.jpg",
       "AssetKind": "All",
@@ -948,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong4.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong5.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong5.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong5.jpg",
       "AssetKind": "All",
@@ -967,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong5.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong6.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong6.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong6.jpg",
       "AssetKind": "All",
@@ -986,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong6.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong7.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\nuocuong\\nuocuong7.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/nuocuong/nuocuong7.jpg",
       "AssetKind": "All",
@@ -1005,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuocuong\\nuocuong7.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad.jpg",
       "AssetKind": "All",
@@ -1024,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad10.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad10.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad10.jpg",
       "AssetKind": "All",
@@ -1043,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad10.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad2.jpg",
       "AssetKind": "All",
@@ -1062,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad3.jpg",
       "AssetKind": "All",
@@ -1081,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad4.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad4.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad4.jpg",
       "AssetKind": "All",
@@ -1100,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad4.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad5.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad5.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad5.jpg",
       "AssetKind": "All",
@@ -1119,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad5.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad6.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad6.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad6.jpg",
       "AssetKind": "All",
@@ -1138,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad6.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad7.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad7.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad7.jpg",
       "AssetKind": "All",
@@ -1157,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad7.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad8.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad8.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad8.jpg",
       "AssetKind": "All",
@@ -1176,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad8.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\rautron\\salad9.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\rautron\\salad9.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/rautron/salad9.jpg",
       "AssetKind": "All",
@@ -1195,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rautron\\salad9.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng1.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng1.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng1.jpg",
       "AssetKind": "All",
@@ -1214,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng1.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng10.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng10.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng10.jpg",
       "AssetKind": "All",
@@ -1233,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng10.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng2.jpg",
       "AssetKind": "All",
@@ -1252,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng3.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng3.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng3.jpg",
       "AssetKind": "All",
@@ -1271,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng3.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng4.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng4.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng4.jpg",
       "AssetKind": "All",
@@ -1290,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng4.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng5.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng5.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng5.jpg",
       "AssetKind": "All",
@@ -1309,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng5.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng6.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng6.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng6.jpg",
       "AssetKind": "All",
@@ -1328,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng6.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng7.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng7.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng7.jpg",
       "AssetKind": "All",
@@ -1347,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng7.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng8.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng8.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng8.jpg",
       "AssetKind": "All",
@@ -1366,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng8.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng9.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\trangmieng\\trangmieng9.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/trangmieng/trangmieng9.jpg",
       "AssetKind": "All",
@@ -1385,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trangmieng\\trangmieng9.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\UserImages\\avatar.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\UserImages\\avatar.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/UserImages/avatar.jpg",
       "AssetKind": "All",
@@ -1404,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\UserImages\\avatar.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\images\\UserImages\\avatar2.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\UserImages\\avatar2.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "images/UserImages/avatar2.jpg",
       "AssetKind": "All",
@@ -1423,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\UserImages\\avatar2.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\uploads\\avatar_132194c9-8c20-4184-b184-d3d41f7cd16e.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\uploads\\avatar_132194c9-8c20-4184-b184-d3d41f7cd16e.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "uploads/avatar_132194c9-8c20-4184-b184-d3d41f7cd16e.jpg",
       "AssetKind": "All",
@@ -1442,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\avatar_132194c9-8c20-4184-b184-d3d41f7cd16e.jpg"
     },
     {
-      "Identity": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\uploads\\avatar_d4870fc8-bb04-4060-a346-e1e79ccaf73c.jpg",
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\uploads\\avatar_d4870fc8-bb04-4060-a346-e1e79ccaf73c.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6 2025\\Asm_WebFood_6\\Web_food_Asm\\wwwroot\\",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
       "BasePath": "_content/Web_food_Asm",
       "RelativePath": "uploads/avatar_d4870fc8-bb04-4060-a346-e1e79ccaf73c.jpg",
       "AssetKind": "All",
@@ -1459,6 +1497,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\avatar_d4870fc8-bb04-4060-a346-e1e79ccaf73c.jpg"
+    },
+    {
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\uploads\\avatar2_4b50f6c1-f7dc-4716-acc4-1dac727a49d6.jpg",
+      "SourceId": "Web_food_Asm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
+      "BasePath": "_content/Web_food_Asm",
+      "RelativePath": "uploads/avatar2_4b50f6c1-f7dc-4716-acc4-1dac727a49d6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatar2_4b50f6c1-f7dc-4716-acc4-1dac727a49d6.jpg"
+    },
+    {
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\uploads\\avatar2_a70b77b4-d6c5-4153-9833-e07d1bf719c5.jpg",
+      "SourceId": "Web_food_Asm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
+      "BasePath": "_content/Web_food_Asm",
+      "RelativePath": "uploads/avatar2_a70b77b4-d6c5-4153-9833-e07d1bf719c5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatar2_a70b77b4-d6c5-4153-9833-e07d1bf719c5.jpg"
     }
   ]
 }

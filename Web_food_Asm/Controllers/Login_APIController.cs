@@ -42,19 +42,14 @@ namespace Web_food_Asm.Controllers
             if (!result.Succeeded)
                 return Unauthorized("Mật khẩu không đúng");
 
-            // Lưu email vào session
-            HttpContext.Session.SetString("UserEmail", model.Email);
+            HttpContext.Session.SetString("Email", user.Email);
+            HttpContext.Session.SetString("id", user.Id);
+            HttpContext.Session.SetString("Hinh", user.Hinh);
+            var role = (await _userManager.GetRolesAsync(user)).Contains("Admin") ? "Admin" : "Customer";
 
-            // Lấy danh sách quyền của người dùng
-            var roles = await _userManager.GetRolesAsync(user);
-
-            // Kiểm tra nếu là admin hay khách hàng
-            if (roles.Contains("Admin"))
-                return Ok(new { message = "Chào Admin!", userId = user.Id, role = "Admin" });
-            else
-                return Ok(new { message = "Chào Khách hàng!", userId = user.Id, role = "Customer" });
-
+            return Ok(new { message = $"Chào {role}!", userId = user.Id, role });
         }
+
         [HttpPost("logout")]
         public IActionResult Logout()
         {

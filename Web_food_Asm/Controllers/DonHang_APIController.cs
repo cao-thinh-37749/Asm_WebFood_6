@@ -5,12 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Web_food_Asm.Data;
 using Web_food_Asm.Models;
+using WebFood.Services;
 
 namespace Web_food_Asm.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DonHang_APIController : ControllerBase
+    [AuthorizeUser]
+    public class DonHang_APIController : SessionService
     {
         private readonly ConnectStr _connectStr;
         private readonly SendMail _sendMail;  // Giả sử bạn có một dịch vụ gửi mail
