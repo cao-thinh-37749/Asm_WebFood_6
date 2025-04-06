@@ -155,7 +155,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.ChiTietDonDatHang", b =>
+            modelBuilder.Entity("Models_Asm.ChiTietDonDatHang", b =>
                 {
                     b.Property<int>("MaChiTiet")
                         .ValueGeneratedOnAdd()
@@ -203,7 +203,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("ChiTietDonDatHangs");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.DanhMucSanPham", b =>
+            modelBuilder.Entity("Models_Asm.DanhMucSanPham", b =>
                 {
                     b.Property<int>("MaDanhMuc")
                         .ValueGeneratedOnAdd()
@@ -220,7 +220,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("DanhMucSanPhams");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.DonDatHang", b =>
+            modelBuilder.Entity("Models_Asm.DonDatHang", b =>
                 {
                     b.Property<int>("MaDonHang")
                         .ValueGeneratedOnAdd()
@@ -250,7 +250,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("DonDatHangs");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.GioHang", b =>
+            modelBuilder.Entity("Models_Asm.GioHang", b =>
                 {
                     b.Property<int>("MaGioHang")
                         .ValueGeneratedOnAdd()
@@ -277,7 +277,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("GioHangs");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.KhachHang", b =>
+            modelBuilder.Entity("Models_Asm.KhachHang", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -361,7 +361,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.SanPham", b =>
+            modelBuilder.Entity("Models_Asm.SanPham", b =>
                 {
                     b.Property<int>("MaSanPham")
                         .ValueGeneratedOnAdd()
@@ -406,7 +406,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("SanPhams");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.SanPhamYeuThich", b =>
+            modelBuilder.Entity("Models_Asm.SanPhamYeuThich", b =>
                 {
                     b.Property<int>("MaYeuThich")
                         .ValueGeneratedOnAdd()
@@ -430,7 +430,7 @@ namespace Web_food_Asm.Migrations
                     b.ToTable("SanPhamYeuThichs");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.ThanhToan", b =>
+            modelBuilder.Entity("Models_Asm.ThanhToan", b =>
                 {
                     b.Property<int>("MaDonHang")
                         .HasColumnType("int");
@@ -467,7 +467,7 @@ namespace Web_food_Asm.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.KhachHang", null)
+                    b.HasOne("Models_Asm.KhachHang", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -476,7 +476,7 @@ namespace Web_food_Asm.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.KhachHang", null)
+                    b.HasOne("Models_Asm.KhachHang", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -491,7 +491,7 @@ namespace Web_food_Asm.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Web_food_Asm.Models.KhachHang", null)
+                    b.HasOne("Models_Asm.KhachHang", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -500,28 +500,28 @@ namespace Web_food_Asm.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.KhachHang", null)
+                    b.HasOne("Models_Asm.KhachHang", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.ChiTietDonDatHang", b =>
+            modelBuilder.Entity("Models_Asm.ChiTietDonDatHang", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.DonDatHang", "DonDatHang")
+                    b.HasOne("Models_Asm.DonDatHang", "DonDatHang")
                         .WithMany("ChiTietDonDatHangs")
                         .HasForeignKey("MaDonHang")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Web_food_Asm.Models.SanPham", "SanPham")
+                    b.HasOne("Models_Asm.SanPham", "SanPham")
                         .WithMany()
                         .HasForeignKey("MaSanPham")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                    b.HasOne("Models_Asm.KhachHang", "KhachHang")
                         .WithMany()
                         .HasForeignKey("UserId");
 
@@ -532,9 +532,9 @@ namespace Web_food_Asm.Migrations
                     b.Navigation("SanPham");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.DonDatHang", b =>
+            modelBuilder.Entity("Models_Asm.DonDatHang", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                    b.HasOne("Models_Asm.KhachHang", "KhachHang")
                         .WithMany("DonDatHangs")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -543,15 +543,15 @@ namespace Web_food_Asm.Migrations
                     b.Navigation("KhachHang");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.GioHang", b =>
+            modelBuilder.Entity("Models_Asm.GioHang", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.SanPham", "SanPham")
+                    b.HasOne("Models_Asm.SanPham", "SanPham")
                         .WithMany()
                         .HasForeignKey("MaSanPham")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                    b.HasOne("Models_Asm.KhachHang", "KhachHang")
                         .WithMany("GioHangs")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -562,9 +562,9 @@ namespace Web_food_Asm.Migrations
                     b.Navigation("SanPham");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.SanPham", b =>
+            modelBuilder.Entity("Models_Asm.SanPham", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.DanhMucSanPham", "DanhMucSanPham")
+                    b.HasOne("Models_Asm.DanhMucSanPham", "DanhMucSanPham")
                         .WithMany("SanPhams")
                         .HasForeignKey("MaDanhMuc")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -573,15 +573,15 @@ namespace Web_food_Asm.Migrations
                     b.Navigation("DanhMucSanPham");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.SanPhamYeuThich", b =>
+            modelBuilder.Entity("Models_Asm.SanPhamYeuThich", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.SanPham", "SanPham")
+                    b.HasOne("Models_Asm.SanPham", "SanPham")
                         .WithMany()
                         .HasForeignKey("MaSanPham")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Web_food_Asm.Models.KhachHang", "KhachHang")
+                    b.HasOne("Models_Asm.KhachHang", "KhachHang")
                         .WithMany("SanPhamYeuThichs")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -592,23 +592,23 @@ namespace Web_food_Asm.Migrations
                     b.Navigation("SanPham");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.ThanhToan", b =>
+            modelBuilder.Entity("Models_Asm.ThanhToan", b =>
                 {
-                    b.HasOne("Web_food_Asm.Models.DonDatHang", "DonDatHang")
+                    b.HasOne("Models_Asm.DonDatHang", "DonDatHang")
                         .WithOne("ThanhToan")
-                        .HasForeignKey("Web_food_Asm.Models.ThanhToan", "MaDonHang")
+                        .HasForeignKey("Models_Asm.ThanhToan", "MaDonHang")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("DonDatHang");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.DanhMucSanPham", b =>
+            modelBuilder.Entity("Models_Asm.DanhMucSanPham", b =>
                 {
                     b.Navigation("SanPhams");
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.DonDatHang", b =>
+            modelBuilder.Entity("Models_Asm.DonDatHang", b =>
                 {
                     b.Navigation("ChiTietDonDatHangs");
 
@@ -616,7 +616,7 @@ namespace Web_food_Asm.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Web_food_Asm.Models.KhachHang", b =>
+            modelBuilder.Entity("Models_Asm.KhachHang", b =>
                 {
                     b.Navigation("DonDatHangs");
 

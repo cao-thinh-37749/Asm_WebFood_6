@@ -1,0 +1,53 @@
+﻿@inherits LayoutComponentBase
+<link href="css/LayOutUser.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+<!-- Header -->
+<div class="header bg-dark text-white py-2 px-4 d-flex justify-content-between align-items-center">
+    <div class="contact-info">
+        <span class="me-3"><i class="fas fa-phone"></i> +2 95 01 88 821</span>
+        <span><i class="fas fa-envelope"></i> info@domain.com</span>
+    </div>
+</div>
+
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm px-4">
+    <a class="navbar-brand fw-bold" href="/">Quốc Thịnh Food</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="">Trang Chủ</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="sanpham">Sản Phẩm</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="lienhe">Liên Hệ</NavLink>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div class="carousel mt-3 position-relative">
+    <img src="images/banhmikep/banhmi1.jpg" class="img-fluid w-100" alt="Banner" />
+    <div class="carousel-caption position-absolute top-50 start-50 translate-middle text-center text-white bg-dark bg-opacity-50 p-4 rounded">
+        <h3><i class="fas fa-hamburger"></i> Chào mừng bạn đến với Burger Shop</h3>
+        <p>Chuyên các món bánh mì kẹp và burger siêu ngon!</p>
+        <NavLink href="sanpham?category=banhmikep" class="btn btn-warning">Xem Sản Phẩm</NavLink>
+    </div>
+</div>
+
+<!-- Body Content -->
+<main class="container my-5">
+    @Body
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2023 Quốc Thịnh FoodShop</p>
+    <p>Thiết kế bởi <a class="text-warning" href="https://www.facebook.com/profile.php?id=100078668093423" target="_blank">Quốc Thịnh</a></p>
+</footer>

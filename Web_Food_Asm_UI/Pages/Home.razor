@@ -1,0 +1,143 @@
+﻿@page "/"
+@using Models_Asm
+@inject Web_Food_Asm_UI.Services.HomeService HomeService
+
+<h2 class="text-2xl font-bold mb-6">Danh sách sản phẩm</h2>
+
+<!-- Bộ lọc (Nằm ngang) -->
+<div class="mb-6 grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
+    <div>
+        <label class="block font-medium mb-1">Danh mục</label>
+        <select class="w-full border rounded p-2" @bind="selectedCategory">
+            <option value="">Tất cả</option>
+            @if (categories != null)
+            {
+                @foreach (var category in categories)
+                {
+                    <option value="@category.MaDanhMuc">@category.TenDanhMuc</option>
+                }
+            }
+        </select>
+    </div>
+    <div>
+        <label class="block font-medium mb-1">Giá thấp nhất</label>
+        <input type="number" class="w-full border rounded p-2" @bind="minPrice" />
+    </div>
+    <div>
+        <label class="block font-medium mb-1">Giá cao nhất</label>
+        <input type="number" class="w-full border rounded p-2" @bind="maxPrice" />
+    </div>
+    <div>
+        <button class="w-full bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700" @onclick="ApplyFilters">
+            Lọc
+        </button>
+    </div>
+</div>
+
+<!-- Danh sách sản phẩm -->
+@if (products == null)
+{
+    <p>Đang tải sản phẩm...</p>
+}
+else if (products.Count == 0)
+{
+    <p>Không có sản phẩm nào được tìm thấy.</p>
+}
+else
+{
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        @foreach (var product in products)
+        {
+            <div class="border p-4 rounded shadow hover:shadow-lg transition flex flex-col justify-between">
+                <img src="@product.HinhAnh" alt="@product.TenSanPham" class="w-full h-52 object-cover mb-4 rounded" />
+                <h3 class="font-semibold text-lg mb-1">@product.TenSanPham</h3>
+                <p class="text-gray-600 mb-1">Giá: @product.Gia.ToString("N0") VNĐ</p>
+                <p class="text-gray-600 mb-2">Số lượng: @product.SoLuong</p>
+                <div class="mt-auto space-y-2">
+                    <button class="w-full px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600" @onclick="() => ViewProductDetails(product.MaSanPham)">Xem chi tiết</button>
+                    <button class="w-full px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600" @onclick="() => AddToFavorites(product.MaSanPham)">Thêm yêu thích</button>
+                    <button class="w-full px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600" @onclick="() => AddToCart(product.MaSanPham)">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<!-- Modal chi tiết sản phẩm -->
+@if (selectedProduct != null)
+{
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white p-6 rounded shadow-lg w-full max-w-2xl relative">
+            <button @onclick="() => selectedProduct = null" class="absolute top-2 right-2 text-gray-600 hover:text-red-600 text-xl">&times;</button>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <img src="@selectedProduct.HinhAnh" alt="@selectedProduct.TenSanPham" class="w-full h-60 object-cover rounded" />
+
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">@selectedProduct.TenSanPham</h2>
+                    <p class="text-gray-700 mb-1"><strong>Giá:</strong> @selectedProduct.Gia.ToString("N0") VNĐ</p>
+                    <p class="text-gray-700 mb-1"><strong>Số lượng:</strong> @selectedProduct.SoLuong</p>
+                    <p class="text-gray-700 mb-1"><strong>Mô tả:</strong> @selectedProduct.MoTa</p>
+                    <p class="text-gray-700 mb-3"><strong>Danh mục:</strong> @selectedProduct.MaDanhMuc</p>
+
+                    <div class="flex space-x-4 mt-4">
+                        <button class="flex-1 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700" @onclick="() => AddToCart(selectedProduct.MaSanPham)">Thêm vào giỏ</button>
+                        <button class="flex-1 px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600" @onclick="() => selectedProduct = null">Quay lại</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    List<SanPham>? products;
+    List<DanhMucSanPham>? categories;
+    SanPham? selectedProduct;
+
+    int? selectedCategory = null;
+    decimal? minPrice = null;
+    decimal? maxPrice = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCategories();
+        await LoadProducts();
+    }
+
+    private async Task LoadCategories()
+    {
+        categories = await HomeService.GetCategoriesAsync();
+    }
+
+    private async Task LoadProducts()
+    {
+        products = await HomeService.GetProductsAsync(
+            categoryId: selectedCategory,
+            minPrice: minPrice,
+            maxPrice: maxPrice
+        );
+    }
+
+    private async Task ApplyFilters()
+    {
+        await LoadProducts();
+    }
+
+    private async Task ViewProductDetails(int maSanPham)
+    {
+        selectedProduct = await HomeService.GetProductDetailsAsync(maSanPham);
+    }
+
+    private void AddToFavorites(int maSanPham)
+    {
+        Console.WriteLine($"Đã thêm sản phẩm {maSanPham} vào yêu thích");
+        // TODO: Gọi API hoặc lưu localStorage
+    }
+
+    private void AddToCart(int maSanPham)
+    {
+        Console.WriteLine($"Đã thêm sản phẩm {maSanPham} vào giỏ hàng");
+        // TODO: Gọi API hoặc lưu localStorage
+    }
+}

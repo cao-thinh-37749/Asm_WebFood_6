@@ -8,14 +8,13 @@ using System;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Web_food_Asm.Data;
-using Web_food_Asm.Models;
+using Models_Asm;
 using WebFood.Services;
 
 namespace Web_food_Asm.Controllers
 {
     [Route("api/admin/san-pham")]
     [ApiController]
-    [AuthorizeUser]
     public class SanPhamAdminApiController : SessionService
     {
         private readonly ConnectStr _connectStr;
@@ -36,31 +35,22 @@ namespace Web_food_Asm.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllProducts(string? searchTerm = "", int? CategoryId = null, bool showOutOfStock = false, string? sort = "asc")
         {
+            // Truy vấn dữ liệu dựa trên tham số nhận được từ URL
             var products = await _connectStr.SanPhams
                 .Include(sp => sp.DanhMucSanPham)
                 .Where(sp =>
                     (!CategoryId.HasValue || sp.MaDanhMuc == CategoryId) &&
                     (showOutOfStock ? sp.SoLuong == 0 : sp.SoLuong > 0) &&
                     (string.IsNullOrEmpty(searchTerm) || sp.TenSanPham.Contains(searchTerm))
-                )
-                .Select(sp => new
-                {
-                    sp.MaSanPham,
-                    sp.TenSanPham,
-                    sp.HinhAnh,
-                    sp.MoTa,
-                    sp.Gia,
-                    sp.SoLuong,
-                    sp.MaDanhMuc, // Chỉ lấy mã danh mục, không lấy thông tin của danh mục
-                    sp.NgayTao,
-                    sp.NgayCapNhat,
-                })
-                .ToListAsync();
+                ).ToListAsync();
 
+            // Sắp xếp theo giá
             if (sort == "asc")
                 products = products.OrderBy(sp => sp.Gia).ToList();
             else if (sort == "desc")
                 products = products.OrderByDescending(sp => sp.Gia).ToList();
+            else
+                products = products.ToList();
 
             return Ok(products);
         }
@@ -113,7 +103,6 @@ namespace Web_food_Asm.Controllers
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetProductById), new { id = sanPham.MaSanPham }, sanPham);
         }
-
         #endregion
 
         #region Lấy Danh Sách Danh Mục
@@ -123,10 +112,7 @@ namespace Web_food_Asm.Controllers
         [HttpGet("categories-dropdown")]
         public async Task<IActionResult> GetCategoriesForDropdown()
         {
-            var categories = await _context.DanhMucSanPhams
-                .Select(dm => new { dm.MaDanhMuc, dm.TenDanhMuc })
-                .ToListAsync();
-
+            var categories = await _context.DanhMucSanPhams.ToListAsync();
             return Ok(categories);
         }
         #endregion
@@ -148,6 +134,7 @@ namespace Web_food_Asm.Controllers
         /// <summary>
         /// Cập nhật thông tin sản phẩm theo ID.
         /// </summary>
+        [AuthorizeUser]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, [FromForm] SanPham sanPham, IFormFile? ImageFile)
         {

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using Web_food_Asm.Data;
-using Web_food_Asm.Models;
+using Models_Asm;
 using WebFood.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,10 +41,25 @@ builder.Services.AddSwaggerGen(c =>
     c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
+// Thêm CORS vào dịch vụ
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()  // Cho phép tất cả các nguồn
+               .AllowAnyMethod()  // Cho phép tất cả các phương thức HTTP (GET, POST, PUT, DELETE...)
+               .AllowAnyHeader();  // Cho phép tất cả các header
+    });
+});
+
+
 // Đăng ký Controllers
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+// Cấu hình để sử dụng CORS
+app.UseCors("AllowAll");  // Sử dụng chính sách "AllowAll"
 
 // Khởi tạo tài khoản mặc định
 using (var scope = app.Services.CreateScope())

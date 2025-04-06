@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Web_Food_Asm_UI.props" />
+</Project>

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Web_food_Asm.Data;
-using Web_food_Asm.Models;
+using Models_Asm;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
@@ -29,25 +29,27 @@ namespace Web_food_Asm.Controllers
         {
             var products = _context.SanPhams.AsQueryable();
 
+            // Lọc theo danh mục nếu có
             if (categoryId.HasValue)
                 products = products.Where(p => p.MaDanhMuc == categoryId.Value);
 
-            if (minPrice.HasValue && maxPrice.HasValue)
-                products = products.Where(p => p.Gia >= minPrice.Value && p.Gia <= maxPrice.Value);
+            // Lọc theo giá nếu có
+            if (minPrice.HasValue)
+                products = products.Where(p => p.Gia >= minPrice.Value);
 
+            if (maxPrice.HasValue)
+                products = products.Where(p => p.Gia <= maxPrice.Value);
+
+            // Đếm tổng số sản phẩm
             var totalProducts = await products.CountAsync();
+
+            // Phân trang sản phẩm
             var pagedProducts = await products.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
 
-            return Ok(new
-            {
-                TotalProducts = totalProducts,
-                CurrentCategoryId = categoryId,
-                CurrentMinPrice = minPrice,
-                CurrentMaxPrice = maxPrice,
-                CurrentPage = page,
-                Products = pagedProducts
-            });
+            // Trả về kết quả phân trang và thông tin lọc
+            return Ok(pagedProducts);
         }
+
 
         // Lấy thông tin chi tiết sản phẩm
         [HttpGet("details/{MaSanPham}")]
@@ -58,6 +60,13 @@ namespace Web_food_Asm.Controllers
                 return NotFound(new { message = "Sản phẩm không tồn tại." });
 
             return Ok(product);
+        }
+
+        [HttpGet("categories-dropdown")]
+        public async Task<IActionResult> GetCategoriesForDropdown()
+        {
+            var categories = await _context.DanhMucSanPhams.ToListAsync();
+            return Ok(categories);
         }
     }
 }

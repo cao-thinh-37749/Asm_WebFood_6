@@ -123,7 +123,7 @@
       },
       {
         "Name": "model",
-        "Type": "Web_food_Asm.Models.ViewModel.Role_ViewModel",
+        "Type": "Models_Asm.Role_ViewModel",
         "IsRequired": true
       }
     ],
@@ -160,7 +160,7 @@
       },
       {
         "Name": "model",
-        "Type": "Web_food_Asm.Models.ViewModel.Role_ViewModel",
+        "Type": "Models_Asm.Role_ViewModel",
         "IsRequired": true
       }
     ],
@@ -212,7 +212,7 @@
     "Parameters": [
       {
         "Name": "danhMucSanPham",
-        "Type": "Web_food_Asm.Models.DanhMucSanPham",
+        "Type": "Models_Asm.DanhMucSanPham",
         "IsRequired": true
       }
     ],
@@ -249,7 +249,7 @@
       },
       {
         "Name": "danhMucSanPham",
-        "Type": "Web_food_Asm.Models.DanhMucSanPham",
+        "Type": "Models_Asm.DanhMucSanPham",
         "IsRequired": true
       }
     ],
@@ -367,7 +367,7 @@
       },
       {
         "Name": "DanhMucSanPham.SanPhams",
-        "Type": "System.Collections.Generic.ICollection\u00601[[Web_food_Asm.Models.SanPham, Web_food_Asm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Models_Asm.SanPham, Models_Asm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
@@ -464,7 +464,7 @@
       },
       {
         "Name": "DanhMucSanPham.SanPhams",
-        "Type": "System.Collections.Generic.ICollection\u00601[[Web_food_Asm.Models.SanPham, Web_food_Asm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Models_Asm.SanPham, Models_Asm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
@@ -511,7 +511,7 @@
     "Parameters": [
       {
         "Name": "chiTiet",
-        "Type": "Web_food_Asm.Models.ChiTietDonDatHang",
+        "Type": "Models_Asm.ChiTietDonDatHang",
         "IsRequired": true
       }
     ],
@@ -574,7 +574,7 @@
       },
       {
         "Name": "updatedChiTiet",
-        "Type": "Web_food_Asm.Models.ChiTietDonDatHang",
+        "Type": "Models_Asm.ChiTietDonDatHang",
         "IsRequired": true
       }
     ],
@@ -689,6 +689,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_food_Asm.Controllers.Home_APIController",
+    "Method": "GetCategoriesForDropdown",
+    "RelativePath": "api/Home_API/categories-dropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

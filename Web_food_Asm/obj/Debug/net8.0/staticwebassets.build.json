@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kG18+x//pRMGiiXmuiSJoCftQiipvieNdUGK7fvJSZc=",
+  "Hash": "9kNcsCWqqhQiXTLlYsZkxKMsSS+Uc9pXFlw2GAcbs7I=",
   "Source": "Web_food_Asm",
   "BasePath": "_content/Web_food_Asm",
   "Mode": "Default",
@@ -606,6 +606,25 @@
       "OriginalItemSpec": "wwwroot\\images\\Logo\\logo.jpg"
     },
     {
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\0452a8f6-1ea4-4975-a3b9-08c23ed360fb.jpg",
+      "SourceId": "Web_food_Asm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
+      "BasePath": "_content/Web_food_Asm",
+      "RelativePath": "images/newfood/0452a8f6-1ea4-4975-a3b9-08c23ed360fb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\newfood\\0452a8f6-1ea4-4975-a3b9-08c23ed360fb.jpg"
+    },
+    {
       "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\23f6a89b-ac20-4741-8172-0f1d0d4d8bff.jpg",
       "SourceId": "Web_food_Asm",
       "SourceType": "Discovered",
@@ -699,6 +718,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\newfood\\39fd0f41-dd57-427c-a9ad-468cb580438a.jpg"
+    },
+    {
+      "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\5148415d-b3be-44ae-88a7-2f77bc2b35df.jpg",
+      "SourceId": "Web_food_Asm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\",
+      "BasePath": "_content/Web_food_Asm",
+      "RelativePath": "images/newfood/5148415d-b3be-44ae-88a7-2f77bc2b35df.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\newfood\\5148415d-b3be-44ae-88a7-2f77bc2b35df.jpg"
     },
     {
       "Identity": "E:\\Fpt_poly\\ky_6\\Block_2\\Bai_tap\\C_6\\CaoQuocThinh_ps37749_Asm\\Web_food_Asm\\Web_food_Asm\\wwwroot\\images\\newfood\\586a6546-d579-48bb-b9ad-f3e00a52be5a.jpg",

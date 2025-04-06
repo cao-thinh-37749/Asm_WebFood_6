@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Web_food_Asm.Models;
+using Models_Asm;
 
 namespace Web_food_Asm.Data
 {

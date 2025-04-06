@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Web_food_Asm.Data;
-using Web_food_Asm.Models;
+using Models_Asm;
 using WebFood.Services;
 
 [Route("api/yeuthich")]

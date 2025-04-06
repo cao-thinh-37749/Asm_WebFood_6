@@ -1,0 +1,15 @@
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\bin\Debug\net8.0\Models_Asm.deps.json
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\bin\Debug\net8.0\Models_Asm.runtimeconfig.json
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\bin\Debug\net8.0\Models_Asm.dll
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\bin\Debug\net8.0\Models_Asm.pdb
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.csproj.AssemblyReference.cache
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.AssemblyInfoInputs.cache
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.AssemblyInfo.cs
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.csproj.CoreCompileInputs.cache
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.sourcelink.json
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.dll
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\refint\Models_Asm.dll
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.pdb
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\Models_Asm.genruntimeconfig.cache
+E:\Fpt_poly\ky_6\Block_2\Bai_tap\C_6\CaoQuocThinh_ps37749_Asm\Web_food_Asm\Models_Asm\obj\Debug\net8.0\ref\Models_Asm.dll
